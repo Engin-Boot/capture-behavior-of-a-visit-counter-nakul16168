@@ -2,9 +2,11 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given
-  When
-  Then
+  Given a hospital with a visit counter
+  
+  When a patient enters
+  
+  Then increment the visit count by 1
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
