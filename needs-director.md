@@ -14,4 +14,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   
   When a visiting specialist has an appointment
   
-  Then reserve a parking slot
+  Then reserve a parking slot for them
