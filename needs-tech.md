@@ -5,7 +5,7 @@ that runs the visit-counter
 
   Given a server
   
-  When the server is restarted
+  When the server restarts
   
   Then recover the visit count
 
