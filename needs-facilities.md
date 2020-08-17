@@ -10,6 +10,8 @@ Scenario: Report visitor trends during a week of operation
 
 Scenario: Alert when seating capacity is full
 
-  Given
-  When
-  Then
+  Given a limited seating capacity
+  
+  When 90% of the capacity is occupied
+  
+  Then raise an alert on email
