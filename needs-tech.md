@@ -3,9 +3,11 @@
 Scenario: Recover across restarts of the server
 that runs the visit-counter
 
-  Given
-  When
-  Then
+  Given a server
+  
+  When the server is restarted
+  
+  Then recover the visit count
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
