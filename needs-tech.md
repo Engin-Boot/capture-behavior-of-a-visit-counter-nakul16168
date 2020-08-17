@@ -11,6 +11,8 @@ that runs the visit-counter
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
-  Given
-  When
-  Then
+  Given a server
+  
+  When the server is offline
+  
+  Then recover the visit count
