@@ -12,6 +12,6 @@ Scenario: Alert when seating capacity is full
 
   Given a limited seating capacity
   
-  When 90% of the capacity is occupied
+  When 90% of the capacity is full
   
   Then raise an alert on email
